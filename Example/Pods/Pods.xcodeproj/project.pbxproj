@@ -16,7 +16,10 @@
 		81C815E559EF44F31B7F00E2E10B72BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9061F0F5DEE536BDED58B69401017FA5 /* Pods-JYHTestDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 702127CFFBB0274CD2B9C06DA6BFC157 /* Pods-JYHTestDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9592805E5B01BDDAD62E9E42B7D97795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CD84837E4C0789B41E3955D6B07BF127 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E6583C62F48BDA017D0B7DE13F61ED08 /* ReplaceMe.m */; };
+		EB5026842521C11100887FB6 /* JYLegendView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5026802521C11000887FB6 /* JYLegendView.h */; };
+		EB5026852521C11100887FB6 /* JYRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5026812521C11000887FB6 /* JYRadarChart.m */; };
+		EB5026862521C11100887FB6 /* JYRadarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5026822521C11000887FB6 /* JYRadarChart.h */; };
+		EB5026872521C11100887FB6 /* JYLegendView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5026832521C11100887FB6 /* JYLegendView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +70,10 @@
 		D4D1A64F571D2427D57C7E4839A38554 /* Pods-JYHTestDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JYHTestDemo_Tests.modulemap"; sourceTree = "<group>"; };
 		DC53084105B53911A1321FAE060B4E64 /* JYHTestDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYHTestDemo-prefix.pch"; sourceTree = "<group>"; };
 		E53BCAD03D719F7796D56C27262FE2A1 /* Pods_JYHTestDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYHTestDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6583C62F48BDA017D0B7DE13F61ED08 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JYHTestDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		EB5026802521C11000887FB6 /* JYLegendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYLegendView.h; path = JYHTestDemo/Classes/JYLegendView.h; sourceTree = "<group>"; };
+		EB5026812521C11000887FB6 /* JYRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYRadarChart.m; path = JYHTestDemo/Classes/JYRadarChart.m; sourceTree = "<group>"; };
+		EB5026822521C11000887FB6 /* JYRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYRadarChart.h; path = JYHTestDemo/Classes/JYRadarChart.h; sourceTree = "<group>"; };
+		EB5026832521C11100887FB6 /* JYLegendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYLegendView.m; path = JYHTestDemo/Classes/JYLegendView.m; sourceTree = "<group>"; };
 		EE7751648295B9553CC567FC9BC77ABD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F6CEE13C58EA3A7D62DB3AF48CF96E87 /* Pods-JYHTestDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYHTestDemo_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +109,10 @@
 		2BE428D5D1AE55B20EBD657427D90E8D /* JYHTestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E6583C62F48BDA017D0B7DE13F61ED08 /* ReplaceMe.m */,
+				EB5026802521C11000887FB6 /* JYLegendView.h */,
+				EB5026832521C11100887FB6 /* JYLegendView.m */,
+				EB5026822521C11000887FB6 /* JYRadarChart.h */,
+				EB5026812521C11000887FB6 /* JYRadarChart.m */,
 				96A8E40B743CCA249B2F4A4BA9C0E979 /* Pod */,
 				6B4887A0FBA40925BFA4C0F8238167C8 /* Support Files */,
 			);
@@ -231,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6272D2F665A7E63FD16616D1F907AC5A /* JYHTestDemo-umbrella.h in Headers */,
+				EB5026862521C11100887FB6 /* JYRadarChart.h in Headers */,
+				EB5026842521C11100887FB6 /* JYLegendView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +387,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1886971387F132F327CCBA6553893CF5 /* JYHTestDemo-dummy.m in Sources */,
-				CD84837E4C0789B41E3955D6B07BF127 /* ReplaceMe.m in Sources */,
+				EB5026872521C11100887FB6 /* JYLegendView.m in Sources */,
+				EB5026852521C11100887FB6 /* JYRadarChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
