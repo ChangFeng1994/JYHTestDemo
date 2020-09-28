@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JYHTestDemo_Example' do
+  pod 'JYHTestDemo', :path => '../'
+
+  target 'JYHTestDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
