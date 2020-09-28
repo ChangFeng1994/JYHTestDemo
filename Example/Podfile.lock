@@ -1,0 +1,16 @@
+PODS:
+  - JYHTestDemo (0.1.0)
+
+DEPENDENCIES:
+  - JYHTestDemo (from `../`)
+
+EXTERNAL SOURCES:
+  JYHTestDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JYHTestDemo: 5c9c56579caa55934c7a067df4edbab55f8f28ed
+
+PODFILE CHECKSUM: 33617481fa260f942382278ba7a7302a4c0c872b
+
+COCOAPODS: 1.9.1

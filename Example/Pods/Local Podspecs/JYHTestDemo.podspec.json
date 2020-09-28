@@ -1,0 +1,22 @@
+{
+  "name": "JYHTestDemo",
+  "version": "0.1.0",
+  "summary": "A short description of JYHTestDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ChangFeng1994/JYHTestDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ChangFeng1994": "1933515668@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ChangFeng1994/JYHTestDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JYHTestDemo/Classes/**/*"
+}
